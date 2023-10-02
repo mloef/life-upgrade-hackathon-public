@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		625ECDD32AC9F08D00F39070 /* life-upgrade-hackathon Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 625ECDD22AC9F08D00F39070 /* life-upgrade-hackathon Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		625ECDD82AC9F08D00F39070 /* life_upgrade_hackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ECDD72AC9F08D00F39070 /* life_upgrade_hackathonApp.swift */; };
+		625ECDDA2AC9F08D00F39070 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ECDD92AC9F08D00F39070 /* RecordingView.swift */; };
+		625ECDDC2AC9F08F00F39070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625ECDDB2AC9F08F00F39070 /* Assets.xcassets */; };
+		625ECDDF2AC9F08F00F39070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625ECDDE2AC9F08F00F39070 /* Preview Assets.xcassets */; };
+		625ECDE92AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ECDE82AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppTests.swift */; };
+		625ECDF32AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ECDF22AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITests.swift */; };
+		625ECDF52AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625ECDF42AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		625ECDD42AC9F08D00F39070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625ECDC62AC9F08D00F39070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625ECDD12AC9F08D00F39070;
+			remoteInfo = "life-upgrade-hackathon Watch App";
+		};
+		625ECDE52AC9F08F00F39070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625ECDC62AC9F08D00F39070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625ECDD12AC9F08D00F39070;
+			remoteInfo = "life-upgrade-hackathon Watch App";
+		};
+		625ECDEF2AC9F08F00F39070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 625ECDC62AC9F08D00F39070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625ECDD12AC9F08D00F39070;
+			remoteInfo = "life-upgrade-hackathon Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		625ECDFB2AC9F08F00F39070 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				625ECDD32AC9F08D00F39070 /* life-upgrade-hackathon Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		625ECDCC2AC9F08D00F39070 /* life-upgrade-hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-upgrade-hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625ECDD22AC9F08D00F39070 /* life-upgrade-hackathon Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "life-upgrade-hackathon Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625ECDD72AC9F08D00F39070 /* life_upgrade_hackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_upgrade_hackathonApp.swift; sourceTree = "<group>"; };
+		625ECDD92AC9F08D00F39070 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		625ECDDB2AC9F08F00F39070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		625ECDDE2AC9F08F00F39070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		625ECDE42AC9F08F00F39070 /* life-upgrade-hackathon Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-upgrade-hackathon Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625ECDE82AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_upgrade_hackathon_Watch_AppTests.swift; sourceTree = "<group>"; };
+		625ECDEE2AC9F08F00F39070 /* life-upgrade-hackathon Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "life-upgrade-hackathon Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		625ECDF22AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_upgrade_hackathon_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		625ECDF42AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = life_upgrade_hackathon_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		625ECDCF2AC9F08D00F39070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ECDE12AC9F08F00F39070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ECDEB2AC9F08F00F39070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		625ECDC52AC9F08D00F39070 = {
+			isa = PBXGroup;
+			children = (
+				625ECDD62AC9F08D00F39070 /* life-upgrade-hackathon Watch App */,
+				625ECDE72AC9F08F00F39070 /* life-upgrade-hackathon Watch AppTests */,
+				625ECDF12AC9F08F00F39070 /* life-upgrade-hackathon Watch AppUITests */,
+				625ECDCD2AC9F08D00F39070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		625ECDCD2AC9F08D00F39070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				625ECDCC2AC9F08D00F39070 /* life-upgrade-hackathon.app */,
+				625ECDD22AC9F08D00F39070 /* life-upgrade-hackathon Watch App.app */,
+				625ECDE42AC9F08F00F39070 /* life-upgrade-hackathon Watch AppTests.xctest */,
+				625ECDEE2AC9F08F00F39070 /* life-upgrade-hackathon Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		625ECDD62AC9F08D00F39070 /* life-upgrade-hackathon Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				625ECDD72AC9F08D00F39070 /* life_upgrade_hackathonApp.swift */,
+				625ECDD92AC9F08D00F39070 /* RecordingView.swift */,
+				625ECDDB2AC9F08F00F39070 /* Assets.xcassets */,
+				625ECDDD2AC9F08F00F39070 /* Preview Content */,
+			);
+			path = "life-upgrade-hackathon Watch App";
+			sourceTree = "<group>";
+		};
+		625ECDDD2AC9F08F00F39070 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				625ECDDE2AC9F08F00F39070 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		625ECDE72AC9F08F00F39070 /* life-upgrade-hackathon Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				625ECDE82AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppTests.swift */,
+			);
+			path = "life-upgrade-hackathon Watch AppTests";
+			sourceTree = "<group>";
+		};
+		625ECDF12AC9F08F00F39070 /* life-upgrade-hackathon Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				625ECDF22AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITests.swift */,
+				625ECDF42AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "life-upgrade-hackathon Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		625ECDCB2AC9F08D00F39070 /* life-upgrade-hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625ECDFC2AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon" */;
+			buildPhases = (
+				625ECDCA2AC9F08D00F39070 /* Resources */,
+				625ECDFB2AC9F08F00F39070 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625ECDD52AC9F08D00F39070 /* PBXTargetDependency */,
+			);
+			name = "life-upgrade-hackathon";
+			productName = "life-upgrade-hackathon";
+			productReference = 625ECDCC2AC9F08D00F39070 /* life-upgrade-hackathon.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		625ECDD12AC9F08D00F39070 /* life-upgrade-hackathon Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625ECDF82AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon Watch App" */;
+			buildPhases = (
+				625ECDCE2AC9F08D00F39070 /* Sources */,
+				625ECDCF2AC9F08D00F39070 /* Frameworks */,
+				625ECDD02AC9F08D00F39070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "life-upgrade-hackathon Watch App";
+			productName = "life-upgrade-hackathon Watch App";
+			productReference = 625ECDD22AC9F08D00F39070 /* life-upgrade-hackathon Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		625ECDE32AC9F08F00F39070 /* life-upgrade-hackathon Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625ECDFF2AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon Watch AppTests" */;
+			buildPhases = (
+				625ECDE02AC9F08F00F39070 /* Sources */,
+				625ECDE12AC9F08F00F39070 /* Frameworks */,
+				625ECDE22AC9F08F00F39070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625ECDE62AC9F08F00F39070 /* PBXTargetDependency */,
+			);
+			name = "life-upgrade-hackathon Watch AppTests";
+			productName = "life-upgrade-hackathon Watch AppTests";
+			productReference = 625ECDE42AC9F08F00F39070 /* life-upgrade-hackathon Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		625ECDED2AC9F08F00F39070 /* life-upgrade-hackathon Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 625ECE022AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon Watch AppUITests" */;
+			buildPhases = (
+				625ECDEA2AC9F08F00F39070 /* Sources */,
+				625ECDEB2AC9F08F00F39070 /* Frameworks */,
+				625ECDEC2AC9F08F00F39070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				625ECDF02AC9F08F00F39070 /* PBXTargetDependency */,
+			);
+			name = "life-upgrade-hackathon Watch AppUITests";
+			productName = "life-upgrade-hackathon Watch AppUITests";
+			productReference = 625ECDEE2AC9F08F00F39070 /* life-upgrade-hackathon Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		625ECDC62AC9F08D00F39070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					625ECDCB2AC9F08D00F39070 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					625ECDD12AC9F08D00F39070 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					625ECDE32AC9F08F00F39070 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 625ECDD12AC9F08D00F39070;
+					};
+					625ECDED2AC9F08F00F39070 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 625ECDD12AC9F08D00F39070;
+					};
+				};
+			};
+			buildConfigurationList = 625ECDC92AC9F08D00F39070 /* Build configuration list for PBXProject "life-upgrade-hackathon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 625ECDC52AC9F08D00F39070;
+			productRefGroup = 625ECDCD2AC9F08D00F39070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				625ECDCB2AC9F08D00F39070 /* life-upgrade-hackathon */,
+				625ECDD12AC9F08D00F39070 /* life-upgrade-hackathon Watch App */,
+				625ECDE32AC9F08F00F39070 /* life-upgrade-hackathon Watch AppTests */,
+				625ECDED2AC9F08F00F39070 /* life-upgrade-hackathon Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		625ECDCA2AC9F08D00F39070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ECDD02AC9F08D00F39070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ECDDF2AC9F08F00F39070 /* Preview Assets.xcassets in Resources */,
+				625ECDDC2AC9F08F00F39070 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ECDE22AC9F08F00F39070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ECDEC2AC9F08F00F39070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		625ECDCE2AC9F08D00F39070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ECDDA2AC9F08D00F39070 /* RecordingView.swift in Sources */,
+				625ECDD82AC9F08D00F39070 /* life_upgrade_hackathonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ECDE02AC9F08F00F39070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ECDE92AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625ECDEA2AC9F08F00F39070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625ECDF32AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITests.swift in Sources */,
+				625ECDF52AC9F08F00F39070 /* life_upgrade_hackathon_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		625ECDD52AC9F08D00F39070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625ECDD12AC9F08D00F39070 /* life-upgrade-hackathon Watch App */;
+			targetProxy = 625ECDD42AC9F08D00F39070 /* PBXContainerItemProxy */;
+		};
+		625ECDE62AC9F08F00F39070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625ECDD12AC9F08D00F39070 /* life-upgrade-hackathon Watch App */;
+			targetProxy = 625ECDE52AC9F08F00F39070 /* PBXContainerItemProxy */;
+		};
+		625ECDF02AC9F08F00F39070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 625ECDD12AC9F08D00F39070 /* life-upgrade-hackathon Watch App */;
+			targetProxy = 625ECDEF2AC9F08F00F39070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		625ECDF62AC9F08F00F39070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		625ECDF72AC9F08F00F39070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		625ECDF92AC9F08F00F39070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"life-upgrade-hackathon Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "life-upgrade-hackathon";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access required in order to record.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		625ECDFA2AC9F08F00F39070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"life-upgrade-hackathon Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "life-upgrade-hackathon";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access required in order to record.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		625ECDFD2AC9F08F00F39070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "life-upgrade-hackathon";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		625ECDFE2AC9F08F00F39070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "life-upgrade-hackathon";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		625ECE002AC9F08F00F39070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-upgrade-hackathon Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/life-upgrade-hackathon Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		625ECE012AC9F08F00F39070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/life-upgrade-hackathon Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/life-upgrade-hackathon Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		625ECE032AC9F08F00F39070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "life-upgrade-hackathon Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		625ECE042AC9F08F00F39070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Emma---Max.life-upgrade-hackathon-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "life-upgrade-hackathon Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		625ECDC92AC9F08D00F39070 /* Build configuration list for PBXProject "life-upgrade-hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ECDF62AC9F08F00F39070 /* Debug */,
+				625ECDF72AC9F08F00F39070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625ECDF82AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ECDF92AC9F08F00F39070 /* Debug */,
+				625ECDFA2AC9F08F00F39070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625ECDFC2AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ECDFD2AC9F08F00F39070 /* Debug */,
+				625ECDFE2AC9F08F00F39070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625ECDFF2AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ECE002AC9F08F00F39070 /* Debug */,
+				625ECE012AC9F08F00F39070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		625ECE022AC9F08F00F39070 /* Build configuration list for PBXNativeTarget "life-upgrade-hackathon Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				625ECE032AC9F08F00F39070 /* Debug */,
+				625ECE042AC9F08F00F39070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 625ECDC62AC9F08D00F39070 /* Project object */;
+}
